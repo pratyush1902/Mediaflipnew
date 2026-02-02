@@ -9,7 +9,7 @@ const contactInfo = [
   {
     icon: FiMapPin,
     title: "Visit Us",
-    details: ["123 Business Avenue, Suite 100", "New York, NY 10001"],
+    details: ["BHUB,Maurya Lok Complex, Patna, Bihar, India - 800001"],
   },
   {
     icon: FiPhone,

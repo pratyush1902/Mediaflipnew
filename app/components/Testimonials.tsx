@@ -5,21 +5,21 @@ import { FiStar } from "react-icons/fi";
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
-    role: "CEO, TechStart Inc.",
+    name: "Vishal Kumar",
+    role: "Rj Supermarket",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
     content: "Mediaflip transformed our online presence completely. Our Google rankings improved dramatically, and we've seen a 200% increase in leads.",
     rating: 5,
   },
   {
-    name: "Michael Chen",
-    role: "Marketing Director, GrowthCo",
+    name: "Pratyush Kumar",
+    role: "Founder,Travenic",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
     content: "The team at Mediaflip is exceptional. Their social media strategies helped us build a loyal community and increase engagement by 300%.",
     rating: 5,
   },
   {
-    name: "Emily Rodriguez",
+    name: "Rahul Singh",
     role: "Founder, LocalBite",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",
     content: "Their GMB management service is outstanding. We went from 20 to 200+ reviews in just 6 months, and our local visibility skyrocketed.",
@@ -35,7 +35,7 @@ const Testimonials = () => {
         <div className="absolute top-0 right-1/3 w-96 h-96 bg-purple-200/40 rounded-full blur-3xl animate-blob"></div>
         <div className="absolute bottom-0 left-1/4 w-72 h-72 bg-pink-200/30 rounded-full blur-3xl animate-blob delay-300"></div>
       </div>
-      
+
       <div className="container mx-auto px-4 relative z-10">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16 animate-fade-in-up">
@@ -67,14 +67,14 @@ const Testimonials = () => {
               <div className="absolute -top-2 -left-2 w-10 h-10 bg-gradient-to-br from-[#4f46e5] to-[#06b6d4] rounded-full flex items-center justify-center text-white text-2xl font-serif opacity-80">
                 "
               </div>
-              
+
               {/* Rating */}
               <div className="flex gap-1 mb-4">
                 {[...Array(testimonial.rating)].map((_, i) => (
-                  <FiStar 
-                    key={i} 
-                    className="text-yellow-400 fill-current group-hover:scale-110 transition-transform" 
-                    size={20} 
+                  <FiStar
+                    key={i}
+                    className="text-yellow-400 fill-current group-hover:scale-110 transition-transform"
+                    size={20}
                     style={{ transitionDelay: `${i * 50}ms` }}
                   />
                 ))}

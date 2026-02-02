@@ -35,7 +35,7 @@ const Footer = () => {
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#4f46e5]/50 to-transparent"></div>
       <div className="absolute top-20 left-10 w-64 h-64 bg-[#4f46e5]/5 rounded-full blur-3xl"></div>
       <div className="absolute bottom-20 right-10 w-72 h-72 bg-[#06b6d4]/5 rounded-full blur-3xl"></div>
-      
+
       <div className="container mx-auto px-4 py-12 md:py-16 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* Company Info */}
@@ -112,7 +112,7 @@ const Footer = () => {
                 <div className="w-8 h-8 bg-gray-800/50 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-[#06b6d4]/20 transition-colors">
                   <FiMapPin className="text-[#06b6d4]" size={16} />
                 </div>
-                <span className="text-gray-400">123 Business Avenue, Suite 100, New York, NY 10001</span>
+                <span className="text-gray-400"></span>
               </li>
               <li className="flex items-center gap-3 group">
                 <div className="w-8 h-8 bg-gray-800/50 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-[#06b6d4]/20 transition-colors">
@@ -142,9 +142,9 @@ const Footer = () => {
               <p className="text-gray-400 text-sm">Get the latest updates and offers directly in your inbox.</p>
             </div>
             <div className="flex gap-2 w-full lg:w-auto">
-              <input 
-                type="email" 
-                placeholder="Enter your email" 
+              <input
+                type="email"
+                placeholder="Enter your email"
                 className="flex-1 lg:w-64 px-4 py-3 rounded-lg bg-gray-800/50 border border-gray-700 focus:border-[#4f46e5] focus:ring-2 focus:ring-[#4f46e5]/20 outline-none transition-all text-white placeholder:text-gray-500"
               />
               <button className="px-6 py-3 bg-gradient-to-r from-[#4f46e5] to-[#06b6d4] rounded-lg font-medium text-white hover:opacity-90 transition-opacity flex items-center gap-2 group">
